@@ -1,0 +1,24 @@
+public class Student6 {
+
+	//method
+	
+	String studying(int no_of_students,String subject_name) {
+		return(no_of_students + " we are studying java " + subject_name);
+	}
+	void playing(int a, int b) {
+		System.out.println(a+ " play " +b);
+	}
+	//mainmathod
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student1 s1=new Student1();//create object
+		Student1 s2=new Student1();//create object
+		
+		System.out.println(s1.studying(5,"manual"));//calling method
+		System.out.println(s2.studying(6,"selenium"));//calling method
+		s1.playing(3,7);
+	}
+
+}
